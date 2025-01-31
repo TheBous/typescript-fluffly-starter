@@ -6,6 +6,7 @@
 			"type": "node",
 			"request": "launch",
 			"runtimeExecutable": "node",
+			"runtimeVersion": "22.12.0",
 			"runtimeArgs": ["--nolazy", "-r", "ts-node/register/transpile-only"],
 			"args": ["src/index.ts"],
 			"cwd": "${workspaceRoot}",
